@@ -2,23 +2,29 @@
 // Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die('Restricted access');
 
-use Joomla\CMS\Uri\Uri;
+use Joomla\CMS\HTML\HTMLHelper;
 
-JFormHelper::loadFieldClass('hidden');
-
-// The class name must always be the same as the filename (in camel case)
-class JFormFieldMyjavascript extends JFormFieldHidden
+class JFormFieldMyjavascript extends Joomla\CMS\Form\FormField
 {
-    //The field class must know its own type through the variable $type.
+
     protected $type = 'Myjavascript';
 
-    public function getInput() {
-        // code that returns HTML that will be shown as the form field
-        $document = JFactory::getDocument();
-        $document->addScriptDeclaration('
-            window.event("domready", function() {
-                alert("An inline JavaScript Declaration");
-            });
-        ');
+    protected function getLabel()
+    {
+        return;
+    }
+
+    protected function getInput()
+    {
+        // Custom JS
+        HTMLHelper::_('script', 'mod_joomla4_module_custom_form_fields/mod_joomla4_module_custom_form_fields_backend.js', ['version' => 'auto', 'relative' => true]);
+
+        // Custom CSS
+        HTMLHelper::_('stylesheet', 'mod_joomla4_module_custom_form_fields/mod_joomla4_module_custom_form_fields_backend.css', ['version' => 'auto', 'relative' => true]);
+
+        // Custom HTML
+        $html = '<p>Hello, is it me you\'re waiting for</p>';
+
+        return $html;
     }
 }

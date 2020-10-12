@@ -27,6 +27,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\xampp\htdocs\kindofuseful.com\downloads\joomla\modules\mod_joomla4_module_custom_form_fields\media\js" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602535246001</updated>
-      <workItem from="1602535247034" duration="5831000" />
+      <workItem from="1602535247034" duration="6425000" />
     </task>
     <servers />
   </component>
@@ -51,5 +56,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="252" width="861" height="616" key="find.popup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1602540250374" />
+    <state x="619" y="242" width="672" height="677" key="run.anything.popup" timestamp="1602542066278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1602542066278" />
   </component>
 </project>
