@@ -1,0 +1,10 @@
+{
+  "name": "mod_joomla4_module_custom_form_fields_custom_form_fields",
+  "version": "0.0.1",
+  "mainDirectory": "z:/xampp/htdocs/kindofuseful.com/downloads/joomla/",
+  "subDirectory": "modules/mod_joomla4_module_custom_form_fields_custom_form_fields/",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compress": "^1.6.0"
+  }
+}

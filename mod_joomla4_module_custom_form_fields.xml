@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS</name>
+	<author>Eoin Oliver</author>
+	<creationDate>July 2020</creationDate>
+	<copyright>Copyright (C) 2020 Eoincorp. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>eoin@squareballoon.co.uk</authorEmail>
+	<authorUrl>www.squareballoon.co.uk</authorUrl>
+	<version>0.1.0</version>
+	<description>MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_XML_DESCRIPTION</description>
+<!--	<namespace path="src">Joomla\Module\ArticlesOffersegory</namespace>-->
+	<files>
+		<filename module="mod_joomla4_module_custom_form_fields">mod_joomla4_module_custom_form_fields.php</filename>
+		<folder>languages</folder>
+		<folder>media</folder>
+		<folder>subforms</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<media destination="mod_joomla4_module_custom_form_fields" folder="media">
+		<folder>css</folder>
+		<folder>images</folder>
+	</media>
+
+	<!-- Update servers -->
+	<updateservers>
+		<server type="extension" priority="1" name="mod_joomla4_module_custom_form_fields">https://www.kindofuseful.com/downloads/mod_joomla4_module_custom_form_fields_updates.xml</server>
+	</updateservers>
+
+	<languages folder="languages/en-GB">
+		<language tag="en-GB">en-GB.mod_joomla4_module_custom_form_fields.ini</language>
+		<language tag="en-GB">en-GB.mod_joomla4_module_custom_form_fields.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="myName"
+						type="text"
+						default="Eoin"
+						label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_MYNAME_LABEL"
+						description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_MYNAME_DESCRIPTION"
+						size="10"
+				/>
+				<field
+						name="salutation"
+						type="list"
+						default=""
+						required="true"
+						label="Select an option"
+						description=""
+				>
+					<option value="">Please Select</option>
+					<option value="0">MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_SALUTATION_OPTION_MR</option>
+					<option value="1">MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_SALUTATION_OPTION_MRS</option>
+				</field>
+				<field
+						name="media_image"
+						type="media"
+						directory="stories"
+				/>
+			</fieldset>
+			<fieldset name="specialOffers" label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_REPEATABLE_OFFERS_FIELDS_LABEL">
+				<field name="repeatable_fields"
+					   label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_REPEATABLE_FIELDS_LABEL"
+					   description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_REPEATABLE_FIELDS_DESCRIPTION"
+					   type="subform"
+					   min="1"
+					   max="1000"
+					   required="true"
+					   formsource="/modules/mod_joomla4_module_custom_form_fields/subforms/special-offers.xml"
+					   multiple="true"
+					   buttons="add,remove"
+					   layout="joomla.form.field.subform.repeatable"
+					   groupByFieldset="false"/>
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+						name="layout"
+						type="modulelayout"
+						label="JFIELD_ALT_LAYOUT_LABEL"
+						description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+						class="custom-select"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
