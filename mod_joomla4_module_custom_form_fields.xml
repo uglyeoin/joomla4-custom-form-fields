@@ -61,6 +61,12 @@
 						type="media"
 						directory="stories"
 				/>
+				<field
+						name="myjavascript"
+						type="myjavascript"
+						label="My Javascript"
+						description="JFIELD_TITLE_DESC"
+				/>
 			</fieldset>
 			<fieldset name="specialOffers" label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_REPEATABLE_OFFERS_FIELDS_LABEL">
 				<field name="repeatable_fields"
