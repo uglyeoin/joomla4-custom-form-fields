@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>MOD_JOOMLA4_MODULE</name>
+	<author>Eoin Oliver</author>
+	<creationDate>July 2020</creationDate>
+	<copyright>Copyright (C) 2020 Eoincorp. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>email@eoincorp.com</authorEmail>
+	<authorUrl>www.eoincorp.com</authorUrl>
+	<version>0.1.0</version>
+	<description>MOD_JOOMLA4_MODULE_XML_DESCRIPTION</description>
+<!--	<namespace path="src">Joomla\Module\ArticlesCategory</namespace>-->
+	<files>
+		<filename module="mod_joomla4_module">mod_joomla4_module.php</filename>
+		<folder>languages</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_joomla4_module.ini</language>
+		<language tag="en-GB">en-GB.mod_joomla4_module.sys.ini</language>
+	</languages>
+</extension>

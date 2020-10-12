@@ -1,0 +1,1 @@
+You can find [a full tutorial here]("https://docs.joomla.org/J4.x:Creating_a_Simple_Module")
