@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<field
-        name="myjavascript"
-        type="myjavascript"
-        label="JGLOBAL_TITLE"
-        description="JFIELD_TITLE_DESC"
-        required="true"
-/>
-<field
-    name="fakeusers"
-    type="fakeusers"
-    label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_TITLE"
-    description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_DESCRIPTION"
-    required="true"
-/>
+<fieldset name="customFormFields">
+    <field
+            name="myjavascript"
+            type="myjavascript"
+            label="JGLOBAL_TITLE"
+            description="JFIELD_TITLE_DESC"
+            required="true"
+    />
+    <field
+            name="fakeusers"
+            type="fakeusers"
+            label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_TITLE"
+            description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_DESCRIPTION"
+            required="true"
+    />
+</fieldset>
