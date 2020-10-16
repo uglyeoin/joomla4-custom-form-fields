@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field
+            name="offerImages"
+            type="media"
+            label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_OFFERS_IMAGES_LABEL"
+            description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_OFFERS_IMAGES_DESCRIPTION"
+    />
+    <field
+            name="offerName"
+            type="text"
+            label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_OFFERS_NAME_LABEL"
+            description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_OFFERS_NAME_DESCRIPTION"
+            size="10"
+    />
+</form>
