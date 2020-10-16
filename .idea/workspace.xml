@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a52db9c-b6f9-4ba2-987c-6e5f075f0d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/forms/fakeusers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_joomla4_module_custom_form_fields.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mod_joomla4_module_custom_form_fields.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/forms/fakeusers.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/forms/fakeusers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/forms/myjavascript.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/forms/myjavascript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,7 @@
       <workItem from="1602535247034" duration="10724000" />
       <workItem from="1602769185454" duration="2450000" />
       <workItem from="1602872879486" duration="138000" />
-      <workItem from="1602873025624" duration="708000" />
+      <workItem from="1602873025624" duration="2507000" />
     </task>
     <servers />
   </component>

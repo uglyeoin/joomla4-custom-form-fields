@@ -11,7 +11,12 @@ module.exports = function(grunt) {
             archive: '<%= pkg.name %>-<%= pkg.version %>.zip'
           },
           files: [
-            {expand: true, cwd: '<%= pkg.mainDirectory %><%= pkg.subDirectory %>', src: ['**/*','!.git/**','!bin/**','!node_modules/**','!**.zip','!gruntfile.js','!LICENSE','!package-lock.json','!package.json'], dest: '/'}, // makes all src relative to cwd
+            {
+                expand: true,
+                cwd: '<%= pkg.mainDirectory %><%= pkg.subDirectory %>',
+                src: ['**/*','!.git/**','!bin/**','!node_modules/**','!**.zip','!gruntfile.js','!LICENSE','!package-lock.json','!package.json'],
+                dest: '/'
+            }, // makes all src relative to cwd
           ]
         }
       }    

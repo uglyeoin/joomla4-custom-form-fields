@@ -42,6 +42,38 @@
 						type="myjavascript"
 				/>
 				<field
+						name="fakeusers"
+						type="fakeusers"
+				/>
+				<field
+						name="gender"
+						type="list"
+						default=""
+						required="true"
+						label="Select an option"
+						description=""
+				>
+					<option value="0">Please Select</option>
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+				</field>
+				<field
+						name="seed"
+						type="text"
+						default="EoinismyKing"
+						label="Seed"
+						description="Enter a word here and it will return the same results each time."
+						size="10"
+				/>
+				<field
+						name="results"
+						type="text"
+						default="8"
+						label="Number of Results"
+						description="Enter a number here"
+						size="10"
+				/>
+				<field
 						name="myName"
 						type="text"
 						default="Eoin"
