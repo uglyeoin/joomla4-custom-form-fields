@@ -13,14 +13,15 @@
 	<files>
 		<filename module="mod_joomla4_module_custom_form_fields">mod_joomla4_module_custom_form_fields.php</filename>
 		<folder>languages</folder>
-		<folder>media</folder>
 		<folder>subforms</folder>
 		<folder>tmpl</folder>
+		<folder>models</folder>
 	</files>
 
 	<media destination="mod_joomla4_module_custom_form_fields" folder="media">
 		<folder>css</folder>
 		<folder>images</folder>
+		<folder>js</folder>
 	</media>
 
 	<!-- Update servers -->
@@ -35,7 +36,7 @@
 
 	<config>
 		<fields name="params">
-			<fieldset name="basic" addfieldpath="/modules/mod_joomla4_module_custom_form_fields/fields">
+			<fieldset name="basic" addfieldpath="/modules/mod_joomla4_module_custom_form_fields/models/forms">
 				<field
 						name="myName"
 						type="text"

@@ -16,10 +16,10 @@ class JFormFieldMyjavascript extends Joomla\CMS\Form\FormField
 
     protected function getInput()
     {
-        // Custom JS
+        // JS
         HTMLHelper::_('script', 'mod_joomla4_module_custom_form_fields/mod_joomla4_module_custom_form_fields_backend.js', ['version' => 'auto', 'relative' => true]);
 
-        // Custom CSS
+        // CSS
         HTMLHelper::_('stylesheet', 'mod_joomla4_module_custom_form_fields/mod_joomla4_module_custom_form_fields_backend.css', ['version' => 'auto', 'relative' => true]);
 
         // Custom HTML
