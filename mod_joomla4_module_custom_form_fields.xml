@@ -38,6 +38,10 @@
 		<fields name="params">
 			<fieldset name="basic" addfieldpath="/modules/mod_joomla4_module_custom_form_fields/models/forms">
 				<field
+						name="myjavascript"
+						type="myjavascript"
+				/>
+				<field
 						name="myName"
 						type="text"
 						default="Eoin"
@@ -61,12 +65,6 @@
 						name="media_image"
 						type="media"
 						directory="stories"
-				/>
-				<field
-						name="myjavascript"
-						type="myjavascript"
-						label="My Javascript"
-						description="JFIELD_TITLE_DESC"
 				/>
 			</fieldset>
 			<fieldset name="specialOffers" label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_REPEATABLE_OFFERS_FIELDS_LABEL">
