@@ -11,6 +11,10 @@
 // No direct access to this file
 defined('_JEXEC') or die;
 
+use Joomla\CMS\Factory;
+$document = Factory::getDocument();
+$document->addStyleSheet("media/mod_joomla4_module_custom_form_fields/css/mod_joomla4_module.css");
+
 $moduleName = $module->module;
 $repeatable_fields = $params->get('repeatable_fields_1');
 

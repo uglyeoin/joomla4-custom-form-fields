@@ -1,8 +1,8 @@
-.mod_joomla4_module_custom_form_fields p:last-of-type {
-    border-bottom: dashed 3px #33396d;
-    padding-bottom: 10px;
+.authors > div {
+    display: inline-block;
+    padding: 0 3rem 2rem 0;
 }
-.mod_joomla4_module_custom_form_fields img {
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+.authors > div img {
+    width: 300px;
+    max-width: 100%;
 }
