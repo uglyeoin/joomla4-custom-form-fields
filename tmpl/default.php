@@ -34,15 +34,15 @@ $repeatable_fields = $params->get('repeatable_fields_1');
                 $authorPhone    = $person->fakeusersphone;
                 $authorPicture  = $person->fakeuserspicture;
         ?>
-          <div class="authors">
-            <div class="detail">
-                <h2><?php echo $authorName; ?></h2>
-                <h3><?php echo $authorPhone; ?></h3>
-            </div>
-            <div class="photo">
-                <img src="<?php echo $authorPicture; ?>" alt="Picture of <?php echo $authorName; ?>">
-            </div>
-          </div>
+                  <div class="authors">
+                    <div class="detail">
+                        <h2><?php echo $authorName; ?></h2>
+                        <h3><?php echo $authorPhone; ?></h3>
+                    </div>
+                    <div class="photo">
+                        <img src="<?php echo $authorPicture; ?>" alt="Picture of <?php echo $authorName; ?>">
+                    </div>
+                  </div>
         <?php
             }
         ?>
