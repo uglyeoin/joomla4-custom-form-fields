@@ -2,8 +2,6 @@
 // Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die('Restricted access');
 
-use Joomla\CMS\Uri\Uri;
-
 JFormHelper::loadFieldClass('list');
 
 // The class name must always be the same as the filename (in camel case)
