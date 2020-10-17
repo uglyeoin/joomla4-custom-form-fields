@@ -41,10 +41,22 @@
 						name="myjavascript"
 						type="myjavascript"
 				/>
-				<field
-						name="fakeusers"
-						type="fakeusers"
-				/>
+				<field name="repeatable_fields_1"
+					   label="Fake Users"
+					   description=""
+					   type="subform"
+					   min="1"
+					   max="1000"
+					   required="true"
+					   formsource="/modules/mod_joomla4_module_custom_form_fields/subforms/people.xml"
+					   multiple="true"
+					   buttons="add,remove"
+					   layout="joomla.form.field.subform.repeatable"
+					   groupByFieldset="false"/>
+<!--				<field-->
+<!--						name="fakeusers"-->
+<!--						type="fakeusers"-->
+<!--				/>-->
 			</fieldset>
 			<fieldset name="specialOffers" label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_REPEATABLE_OFFERS_FIELDS_LABEL">
 				<field name="repeatable_fields"

@@ -7,11 +7,11 @@ use Joomla\CMS\Uri\Uri;
 JFormHelper::loadFieldClass('list');
 
 // The class name must always be the same as the filename (in camel case)
-class JFormFieldFakeusers extends JFormFieldList
+class JFormFieldFakeuserspicture extends JFormFieldList
 {
 
     //The field class must know its own type through the variable $type.
-    protected $type = 'Fakeusers';
+    protected $type = 'Fakeuserspicture';
 
     public function getOptions()
     {
@@ -21,12 +21,13 @@ class JFormFieldFakeusers extends JFormFieldList
 
         foreach($people['results'] as $person)
         {
-            $personName = $person['name']['title'] . " " . $person['name']['first'] . " " . $person['name']['last'];
-            $personSurname = $person['name']['last'];
-            $fakeUsersOptions[] = array("value" => $personSurname, "text" => $personName);
+            $personName = $person['picture']['large'];
+            $personDetail = $person['picture']['large'];
+            $fakeUsersOptions[] = array("value" => $personDetail, "text" => $personName);
         }
         // Merge any additional options in the XML definition.
         $options = array_merge(parent::getOptions(), $fakeUsersOptions);
+
         return $options;
     }
 }

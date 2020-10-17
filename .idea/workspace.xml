@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a52db9c-b6f9-4ba2-987c-6e5f075f0d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/subforms/people.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/forms/fakeusersphone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/forms/fakeuserspicture.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod_joomla4_module_custom_form_fields.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mod_joomla4_module_custom_form_fields.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/fields/fields.xml" beforeDir="false" afterPath="$PROJECT_DIR$/models/fields/fields.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/forms/fakeusers.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/forms/fakeusers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subforms/people.xml" beforeDir="false" afterPath="$PROJECT_DIR$/subforms/people.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/tmpl/default.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mod_kou_fake_random_users_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models/forms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,6 +58,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\xampp\htdocs\kindofuseful.com\downloads\joomla\modules\mod_joomla4_module_custom_form_fields\models\forms" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\xampp\htdocs\kindofuseful.com\downloads\joomla\modules\mod_joomla4_module_custom_form_fields\media\css" />
       <recent name="Z:\xampp\htdocs\kindofuseful.com\downloads\joomla\modules\mod_joomla4_module_custom_form_fields\media\js" />
@@ -69,7 +77,7 @@
       <workItem from="1602535247034" duration="10724000" />
       <workItem from="1602769185454" duration="2450000" />
       <workItem from="1602872879486" duration="138000" />
-      <workItem from="1602873025624" duration="9476000" />
+      <workItem from="1602873025624" duration="14585000" />
     </task>
     <servers />
   </component>
@@ -100,5 +108,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1602542066278" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1602940231041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1602940231041" />
   </component>
 </project>

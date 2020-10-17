@@ -14,4 +14,18 @@
             description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_DESCRIPTION"
             required="true"
     />
+    <field
+            name="fakeuserspicture"
+            type="fakeuserspicture"
+            label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_TITLE"
+            description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_DESCRIPTION"
+            required="true"
+    />
+    <field
+            name="fakeusersphone"
+            type="fakeusersphone"
+            label="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_TITLE"
+            description="MOD_JOOMLA4_MODULE_CUSTOM_FORM_FIELDS_FAKEUSERS_DESCRIPTION"
+            required="true"
+    />
 </fieldset>
